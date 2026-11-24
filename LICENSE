@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 DuvenProjects
+Copyright (c) 2026 Selcuk
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,18 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+-------------------------------------------------------------------------------
+Third-party components
+-------------------------------------------------------------------------------
+
+The generated font files (fonts_ui.c) contain glyphs rendered from:
+  - Inter, Copyright (c) 2016 The Inter Project Authors
+  - Noto Sans CJK, Copyright (c) 2014-2021 Adobe (http://www.adobe.com/)
+Both fonts are licensed under the SIL Open Font License, Version 1.1
+(https://openfontlicense.org). The fonts themselves are not part of this
+repository.
+
+The libraries used by this project (LVGL, M5Unified, M5GFX, ArduinoJson,
+Adafruit AHTX0, DFRobot_ENS160, Blynk, Arduino-ESP32) are not included in this
+repository and are distributed under their own licenses.
